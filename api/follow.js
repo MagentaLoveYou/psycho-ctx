@@ -1,4 +1,4 @@
-import { start_spam as start } from '../tiktok/main.js';
+import { start_spam as start } from '../main.js';
 
 export async function followers(user_id, login, pass) {
     const count ='200';
