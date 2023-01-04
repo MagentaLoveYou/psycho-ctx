@@ -12,13 +12,12 @@
   "name": "tiktok-test",
   "version": "1.0.0",
   "description": "Automated software ",
-  "main": "index.js",
+  "main": "bot.js",
   "type": "module",
   "scripts": {
     "test": "mocha --timeout=300000 ./tests",
-    "start": "node index.cjs",
-    "dev": "nodemon index.js",
-    "tt": "node main.cjs"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
   },
   "keywords": [
     "Puppeteer",
