@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "node-telegram-bot-api": "0.60.0",
+    "prettier": "^2.8.1",
+    "puppeteer": "^19.4.1",
+    "puppeteer-cluster": "^0.23.0",
+    "vercel": "^28.10.2"
+  },
+  "name": "tiktok-test",
+  "version": "1.0.0",
+  "description": "Automated software ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --timeout=300000 ./tests",
+    "start": "node index.cjs",
+    "dev": "nodemon index.js",
+    "tt": "node main.cjs"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "sain",
+  "license": "ISC"
+}
